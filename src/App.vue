@@ -1,7 +1,7 @@
 <template>
   <NavBar />
-  <EmptyHome v-if="isAuthenticated" />
-  <Home v-else />
+  <Home v-if="isAuthenticated" />
+  <EmptyHome v-else />
   <Footer />
 </template>
 
